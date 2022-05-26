@@ -1,0 +1,115 @@
+.one {
+    background-image: url('https://i.redd.it/c3uhsgo1vx541.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    background-repeat: no-repeat;align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.two{
+    background-image: url('https://i.pinimg.com/originals/82/3e/2f/823e2f13b903a3790f6790ad9688d77e.jpg');
+    background-size: cover;
+    color: azure;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    background-attachment: fixed;align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.three{
+    background-image: url('https://images4.alphacoders.com/203/203956.jpg');
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    font-size: 60px;
+    background-attachment: fixed;align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+/* div {
+    min-height: 100vh;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    
+
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.four {
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    border-style: ridge;
+    border-width: 5px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f7/%C2%A9India.Karnataka.Gulbarga.Railway_Station.JPG');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.glbtext{
+    font-size: 50px;
+    background-color: navajowhite;
+    height: fit-content;
+    padding: 20px 20px 20px 20px;
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 100px;
+    font-family: monospace;
+
+}
+
+.five{
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    border-style: double;
+    border-width: 5px;
+    background-color: lightblue;
+    color: midnightblue;
+    font-size: 30px;
+    
+}
+.six {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10%;
+    align-items: center;
+    }
+.seven{
+    background-color: navajowhite;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-style: double;
+    border-width: 10px;
+    border-color: blue;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+}
+.eight{
+    border-style: none;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10%;
+    align-items: center;
+}

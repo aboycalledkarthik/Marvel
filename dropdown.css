@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    /* 24252A */
+}
+
+header{
+    background-attachment: fixed;
+    background-color: #24252A; 
+}
+
+li, a, button{
+    font-family: 'Marvel', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    height: 50px;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li{
+    
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #E92227;
+    /* #0088a9 */
+}
+
+.btn1{
+    padding: 9px 25px;
+    background-color: #E92227;
+    /* rgba(0, 136, 169, 1) */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 12px;
+}
+
+button:hover{
+    background-color: rgba(233, 34, 39, 1);
+    box-shadow: 0 0 20px #E92227;
+}
+
+
+

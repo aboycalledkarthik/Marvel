@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#preloader{
+    background: #000 url('images/loader.gif.gif') no-repeat center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-size: 15%;
+}
+
+.apk1{
+    height: 204.4px;
+}
+
+.nvb{
+    background: #0A1F22;
+}
+
+.navbar{
+    margin-top: 0;
+    height: 10vh;
+}
+
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 152px;
+    left: 10vh;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.logo:hover{
+    filter: invert();
+    border: 2px solid white;
+}
+
+.ls{
+    position: absolute;
+    top: 231px;
+    left: 39vh;
+    color: white;
+    font-size: large;
+}
+.ls:hover{
+    background: white;
+    color: #0A1F22;
+    padding: 5px 7px;
+    border-radius: 10px;
+    top: 227px;
+    left: 38vh;
+    transition: 0.5s;
+}
+
+.st{
+    position: absolute;
+    top: 231px;
+    left: 60vh;
+    color: white;
+    font-size: large;
+}
+.st:hover{
+    background: white;
+    color: #0A1F22;
+    padding: 5px 7px;
+    border-radius: 10px;
+    top: 227px;
+    left: 59vh;
+    transition: 0.5s;
+}
+
+.chn{
+    position: absolute;
+    top: 231px;
+    left: 84vh;
+    color: white;
+    font-size: large;
+}
+.chn:hover{
+    background: white;
+    color: #0A1F22;
+    padding: 5px 7px;
+    border-radius: 10px;
+    top: 227px;
+    left: 83vh;
+    transition: 0.5s;
+}
+
+.playicon{
+    filter: invert();
+    position: absolute;
+    left: 152vh;
+    top: 217px;
+    padding: 10px;
+    font-size: 30px;
+}
+.playicon:hover{
+    background: white;
+    filter: none;
+    padding: 10px;
+    color: #0A1F22;
+    border-radius: 32px;
+    top: 217px;
+    transition: 0.3s;
+}
+
+.usericon{
+    filter: invert();
+    position: absolute;
+    left: 172vh;
+    top: 217px;
+    padding: 10px;
+    font-size: 30px;
+}
+.usericon:hover{
+    background: white;
+    filter: none;
+    padding: 10px;
+    color: #0A1F22;
+    border-radius: 32px;
+    top: 217px;
+    transition: 0.5s;
+}
+
+.home{
+    background: #0A1F22;
+    height: 57.2vh;
+    margin-top: 4px;
+}
+
+.txt{
+    display: flex;
+    color: white;
+    font-size: 75px;
+    font-family: monospace;
+    position: absolute;
+    
+}
+.txtp{
+    font-family: 'Tapestry', cursive;
+    color: white;
+}
+.txtp:hover{
+    animation-name: anim1;
+    animation-duration: 0.75s;
+    animation-iteration-count: 1;
+}
+@keyframes anim1 {
+    25%{
+        font-size: 100px;
+    }
+    100%{
+        font-size: 75px;
+    }
+}
+
+.apni{
+    display: flex;
+    position: absolute;
+    top: 57px;
+    left: 411px;
+    text-shadow: 0 0 50px white;
+}
+
+.kaksha{
+    display: flex;
+    position: absolute;
+    top: 57px;
+    left: 637px;
+    text-shadow: 0 0 50px white;
+}
+
+.wrapper{
+    display: inline-flex;
+}
+.static-txt{
+    position: relative;
+    top: 300px;
+    opacity: 0;
+    left: 160px;
+    font-size: 30px;
+    text-shadow: 0 0 10px #FC6D6D, 0 0 20px #FC6D6D, 0 0 40px #FC6D6D, 0 0 80px #FC6D6D, 0 0 120px #FC6D6D, 0 0 160px #FC6D6D;
+    animation: glow 6s   infinite  ;
+}
+@keyframes glow {
+    0%,100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+.wrapper .static-txt{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    left: 256px;
+}
+
+.dynamic-txts li{
+    list-style: none;
+    font-size: 40px;
+    font-weight: 500;
+    color: #FC6D6D;
+    position: relative;
+    top: 0;
+    text-shadow: 0 0 10px #FC6D6D
+}
+
+.dynamic-txts li span{
+    position: relative;
+    top: 216px;
+    left: 405px;
+}
+.dynamic-txts li span::after{
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 6s steps(20) infinite;
+    left: 0;
+    background: white;
+}
+@keyframes typing {
+    35%{
+        left:100%;
+    }
+    50%{
+        left: 100%;
+    }
+    85%{
+        left: 0%;
+    }
+}
+
+
+
+
+
